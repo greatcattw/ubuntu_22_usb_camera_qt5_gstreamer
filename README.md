@@ -8,5 +8,5 @@ There are 2 way to use: <br>
 (1) overlay <br>
 (2) QVideoWidget <br> 
 From QT5.12.2, there is a quick call. <br>
-QMediaplayer->setMedia(QUrl("gst-pipeline: videotestsrc !  videoconvert ! xvimagesink name=\"qtvideosink\"")); <br>
+QMediaplayer->setMedia(QUrl("gst-pipeline: videotestsrc !  videoconvert ! xvimagesink name=\\\"qtvideosink\\\"")); <br>
 
