@@ -18,5 +18,13 @@ sudo apt-get install libqt5multimedia5-plugins <br>
 
 
 #Compile the source code
+sudo apt-get update <br>
+sudo apt-get upgrade -y <br>
+sudo apt-get install build-essential <br>
+sudo apt-get install libfontconfig1 <br>
+sudo apt-get install mesa-common-dev <br>
+sudo apt-get install libglu1-mesa-dev <br>
+sudo apt-get install libx11-dev libxext-dev libxtst-dev <br>
+
 download and install qt-opensource-linux-x64-5.14.2.run <br>
 sudo apt install gstreamer1.0-plugins-* <br>
