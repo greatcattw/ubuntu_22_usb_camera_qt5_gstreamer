@@ -28,7 +28,7 @@ sudo apt-get install libqt5multimedia5-plugins <br>
 
 # Compile the source code
 sudo apt-get update <br>
-sudo apt-get upgrade -y <br>
+<br>
 sudo apt-get install build-essential <br>
 sudo apt-get install libfontconfig1 <br>
 sudo apt-get install mesa-common-dev <br>
