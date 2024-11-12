@@ -10,6 +10,15 @@ There are 2 way to use: <br>
 From QT5.12.2, there is a quick call. <br>
 QMediaplayer->setMedia(QUrl("gst-pipeline: videotestsrc !  videoconvert ! xvimagesink name=\\\"qtvideosink\\\"")); <br>
 <br>
+Overlay and USB camera <br>
+![pic](pic/1.png)<br>
+<br>
+QVideoWidget and videotestsrc <br>
+![pic](pic/2.png)<br>
+<br>
+QVideoWidget and USB camera <br>
+![pic](pic/3.png)<br>
+<br>
 # Just run executable file
 sudo apt-get update <br>
 sudo apt-get install libqt5widgets5 <br>
