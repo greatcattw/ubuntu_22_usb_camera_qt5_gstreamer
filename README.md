@@ -28,3 +28,4 @@ sudo apt-get install libx11-dev libxext-dev libxtst-dev <br>
 
 download and install qt-opensource-linux-x64-5.14.2.run <br>
 sudo apt install gstreamer1.0-plugins-* <br>
+sudo apt install libgstreamer1.0-dev
