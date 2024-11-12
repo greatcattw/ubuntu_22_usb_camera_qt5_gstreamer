@@ -41,7 +41,5 @@ sudo apt-get install libqt5widgets5 <br>
 sudo apt-get install libqt5multimedia5 libqt5multimediawidgets5 <br>
 sudo apt-get install libqt5multimedia5-plugins <br>
 <br>
-sudo apt-get install gstreamer1.0-plugins-* <br>
-sudo apt-get install libgstreamer1.0-dev <br>
 sudo apt-get install libqt5gstreamer-dev <br>
 <br>
