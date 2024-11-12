@@ -9,4 +9,14 @@ There are 2 way to use: <br>
 (2) QVideoWidget <br> 
 From QT5.12.2, there is a quick call. <br>
 QMediaplayer->setMedia(QUrl("gst-pipeline: videotestsrc !  videoconvert ! xvimagesink name=\\\"qtvideosink\\\"")); <br>
+<br>
+#Just run executable file
+sudo apt-get update <br>
+sudo apt-get install libqt5widgets5 <br>
+sudo apt install libqt5multimedia5 libqt5multimediawidgets5 <br>
+sudo apt-get install libqt5multimedia5-plugins <br>
 
+
+#Compile the source code
+download and install qt-opensource-linux-x64-5.14.2.run <br>
+sudo apt install gstreamer1.0-plugins-* <br>
