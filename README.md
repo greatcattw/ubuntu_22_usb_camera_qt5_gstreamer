@@ -69,3 +69,34 @@ gstreamer1.0-gl \ <br>
 gstreamer1.0-gtk3 \ <br>
 gstreamer1.0-qt5 \ <br>
 gstreamer1.0-pulseaudio  <br>
+
+# Note 3: Autorun 
+在Ubuntu, 要讓程式開機自動啟動, 方法之一是用systemd服務. <br>
+在/lib/systemd/system加個文字檔. <br>
+若是程式是有視窗與聲音的, 還要加環境參數 <br>
+User=gcat <br>
+Group=gcat <br>
+Environment=DISPLAY=:0 <br>
+Environment=XAUTHORITY=/home/gcat/.Xauthority <br>
+Environment=XDG_RUNTIME_DIR=/run/user/1000 <br>
+Environment=QT_QPA_PLATFORM=xcb <br>
+## 例子  
+[Unit] <br>
+Description=autorun test09 <br>
+After=multi-user.target <br>
+Wants=multi-user.target <br>
+#After=graphical.target <br>
+ <br>
+[Service] <br>
+#ExecStartPre=/bin/sleep 5 <br>
+ExecStart=/usr/bin/test09 <br>
+Restart=no <br>
+User=gcat <br>
+Group=gcat <br>
+Environment=DISPLAY=:0 <br>
+Environment=XAUTHORITY=/home/gcat/.Xauthority <br>
+Environment=XDG_RUNTIME_DIR=/run/user/1000 <br>
+Environment=QT_QPA_PLATFORM=xcb <br>
+ <br>
+[Install] <br>
+WantedBy=multi-user.target <br>
