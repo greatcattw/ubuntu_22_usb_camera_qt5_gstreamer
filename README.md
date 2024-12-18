@@ -52,7 +52,7 @@ sudo apt-get install linux-headers-$(uname -r) -y <br>
 sudo apt-get install ubuntu-drivers-common -y <br>
 sudo apt-get install nvidia-driver-550 -y <br>
 
-# Note 2 : Install Full gstreamer 
+# Note 2 : Install full gstreamer 
 sudo apt-get -y install \ <br>
 libgstreamer1.0-dev \ <br>
 libgstreamer-plugins-base1.0-dev \ <br>
