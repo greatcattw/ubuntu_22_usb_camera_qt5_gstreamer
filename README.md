@@ -42,3 +42,30 @@ sudo apt-get install libqt5multimedia5-plugins <br>
 <br>
 sudo apt-get install libqt5gstreamer-dev <br>
 <br>
+
+# note 1 Install driver
+ASUS S501MER  RTX5060 NVIDIA <br>
+OS: Ubuntu 22.04.3 <br>
+sudo apt-get update <br>
+sudo apt-get install libc-dev -y <br>
+sudo apt-get install linux-headers-$(uname -r) -y <br>
+sudo apt-get install ubuntu-drivers-common -y <br>
+sudo apt-get install nvidia-driver-550 -y <br>
+
+# note 2 Install Full gstreamer 
+sudo apt-get -y install \ <br>
+libgstreamer1.0-dev \ <br>
+libgstreamer-plugins-base1.0-dev \ <br>
+libgstreamer-plugins-bad1.0-dev \ <br>
+gstreamer1.0-plugins-base \ <br>
+gstreamer1.0-plugins-good \ <br>
+gstreamer1.0-plugins-bad \ <br>
+gstreamer1.0-plugins-ugly \ <br>
+gstreamer1.0-libav \ <br>
+gstreamer1.0-tools \ <br>
+gstreamer1.0-x \ <br>
+gstreamer1.0-alsa \ <br>
+gstreamer1.0-gl \ <br>
+gstreamer1.0-gtk3 \ <br>
+gstreamer1.0-qt5 \ <br>
+gstreamer1.0-pulseaudio  <br>
